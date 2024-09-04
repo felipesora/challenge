@@ -4,26 +4,26 @@ import iconEmail from '../../assets/images/icone-email.png';
 import "./contato.css"
 
 export default function Contato() {
-  // const inputNome = useRef<HTMLInputElement | null>(null);
-  // const inputMensagem = useRef<HTMLInputElement | null>(null);
-  // const [respostaNome, setRespostaNome] = useState<string>('');
-  // const [respostaMensagem, setRespostaMensagem] = useState<string>('');
+  const inputNome = useRef<HTMLInputElement | null>(null);
+  const inputMensagem = useRef<HTMLInputElement | null>(null);
+  const [respostaNome, setRespostaNome] = useState<string>('');
+  const [respostaMensagem, setRespostaMensagem] = useState<string>('');
 
-  // const btnContatoClick = (e: React.MouseEvent<HTMLButtonElement>) => {
-  //   e.preventDefault();
+  const btnContatoClick = (e: React.MouseEvent<HTMLButtonElement>) => {
+    e.preventDefault();
 
-  //   const nomeUsuario = inputNome.current?.value.trim();
-  //   const mensagemUsuario = inputMensagem.current?.value.trim();
+    const nomeUsuario = inputNome.current?.value.trim();
+    const mensagemUsuario = inputMensagem.current?.value.trim();
 
-  //   if (nomeUsuario && mensagemUsuario) {
-  //     setRespostaNome(`Obrigado, ${nomeUsuario}`);
-  //     setRespostaMensagem(
-  //       'Obrigado por entrar em contato conosco. Recebemos sua mensagem e nossa equipe retornará o mais breve possível. Agradecemos por escolher a Porto Seguro.'
-  //     );
-  //     if (inputNome.current) inputNome.current.value = '';
-  //     if (inputMensagem.current) inputMensagem.current.value = '';
-  //   }
-  // };
+    if (nomeUsuario && mensagemUsuario) {
+      setRespostaNome(Obrigado, ${nomeUsuario});
+      setRespostaMensagem(
+        'Obrigado por entrar em contato conosco. Recebemos sua mensagem e nossa equipe retornará o mais breve possível. Agradecemos por escolher a Porto Seguro.'
+      );
+      if (inputNome.current) inputNome.current.value = '';
+      if (inputMensagem.current) inputMensagem.current.value = '';
+    }
+  };
 
   return (
     <main>
