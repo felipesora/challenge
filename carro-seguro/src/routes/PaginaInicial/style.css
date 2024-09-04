@@ -1,0 +1,71 @@
+#container_main{
+    background-color: var(--cor-quartenaria);
+    max-width: 95vw;
+    margin: auto;
+    box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.185);
+    border-radius: 5px;
+}
+
+#container_quem_somos, #container_diagnostico
+,#container_faq, #container_contato{
+    padding: 2% 0 0 2%;
+}
+
+#container_serviços{
+    padding: 4% 0 0 2%;
+}
+
+#container_escolher_porto{
+    padding: 4% 0 0 2%;
+}
+
+#container_usar_site{
+    padding: 4% 0 3% 2%;
+}
+
+.titulo_main{
+    font-size: 2.1rem;
+}
+
+.subtitulo{
+    margin-top: 1%;
+    font-size: 1.7rem;
+}
+
+.descritivo{
+    margin-top: 1%;
+    font-size: 1.1rem;
+    width: 90vw;
+}
+
+.texto_imagem{
+    display: flex;
+}
+
+.descritivo01{
+    width: 40vw;
+    text-align: justify;
+}
+
+.imagem01{
+    border-radius: 10px;
+    width: 35vw;
+    margin-left: 10%;
+    border: 3px solid var(--cor-principal);
+}
+
+.lista_main{
+    list-style: none;
+}
+
+.li_main{
+    display: flex;
+    align-items: center;
+    margin-top: 2%;
+    font-size: 1.1rem;
+    padding-bottom: 2%;
+}
+
+.icone_li{
+    margin-right: 1%;
+}
