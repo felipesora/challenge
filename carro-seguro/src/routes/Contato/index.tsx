@@ -16,7 +16,7 @@ export default function Contato() {
     const mensagemUsuario = inputMensagem.current?.value.trim();
 
     if (nomeUsuario && mensagemUsuario) {
-      setRespostaNome(Obrigado, ${nomeUsuario});
+      setRespostaNome(`Obrigado, ${nomeUsuario}`);
       setRespostaMensagem(
         'Obrigado por entrar em contato conosco. Recebemos sua mensagem e nossa equipe retornará o mais breve possível. Agradecemos por escolher a Porto Seguro.'
       );
@@ -63,5 +63,4 @@ export default function Contato() {
       </div>
     </main>
   );
-
 }
