@@ -1,0 +1,48 @@
+#box_icones{
+    margin-top: 2%;
+}
+
+.flex_contato{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.flex_contato2{
+    margin-top: 1%;
+}
+
+.flex_contato > img {
+    width: 4vw;
+}
+
+.flex_contato > p {
+    font-size: 1.4rem;
+}
+
+#dados_contato{
+    margin-top: 2%;
+}
+
+.texto_dados{
+    font-size: 1.5rem;
+}
+
+#id_nome_usuario{
+    width: 40vw;
+    padding: 10px; 
+    border: 2px solid black; 
+    border-radius: 5px; 
+    font-size: 1.1rem; 
+    margin-bottom: 10px; 
+}
+
+#id_mensagem_usuario{
+    width: 80vw;
+    height: 15vh;
+    padding: 20px; 
+    border: 2px solid black; 
+    border-radius: 5px; 
+    font-size: 1.1rem; 
+    margin-bottom: 10px;
+}
