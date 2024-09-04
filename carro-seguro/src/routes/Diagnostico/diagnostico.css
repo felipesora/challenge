@@ -53,3 +53,133 @@
     padding-bottom: 2%;
     text-align: justify;
 }
+@media (max-width: 1450px){
+    #resposta_botao{
+        width: 90vw;
+    }
+} 
+
+@media (max-width: 1300px){
+    #container_main{
+        margin-top: 5%;
+    }
+}
+
+@media (max-width: 1170px){
+    #container_main{
+        margin-bottom: 5%;
+    }
+}
+
+@media (max-width: 980px){
+    #container_main{
+        margin-top: 6.5%;
+        margin-bottom: 6.5%;
+    }
+
+    .botao_enviar{
+        width: 15vw;
+    }
+}
+
+@media (max-width: 755px){
+    #container_main{
+        margin-top: 8%;
+        margin-bottom: 8%;
+    }
+
+    .botao_enviar{
+        width: 18vw;
+    }
+}
+
+@media (max-width: 650px){
+    #id_relatar_problema{
+        height: 10vh;
+        font-size: 1rem;
+    }
+
+    .botao_enviar{
+        width: 20vw;
+    }
+
+}
+
+@media (max-width: 580px){
+    #id_relatar_problema{
+        height: 7vh;
+        font-size: 0.9rem;
+    }
+
+    .botao_enviar{
+        width: 20vw;
+    }
+}
+
+@media (max-width: 550px){
+    #container_main{
+        margin-top: 8%;
+        margin-bottom: 8%;
+    }
+    #id_relatar_problema{
+        width: 80vw;
+        height: 7vh;
+        font-size: 0.8rem;
+    }
+
+    .botao_enviar{
+        width: 22vw;
+    }
+}
+
+@media (max-width: 460px){
+    .titulo_main{
+        font-size: 1.4rem;
+    }
+
+    .descritivo{
+        font-size: 0.9rem;
+    }
+
+    #container_main{
+        margin-top: 8%;
+        margin-bottom: 8%;
+    }
+    #id_relatar_problema{
+        width: 80vw;
+        height: 7vh;
+        font-size: 0.8rem;
+    }
+
+    .botao_enviar{
+        width: 25vw;
+    }
+}
+
+@media (max-width: 390px){
+    .titulo_main{
+        font-size: 1.7rem;
+    }
+
+    .descritivo{
+        font-size: 1.1rem;
+    }
+
+    .subtitulo{
+        font-size: 1.6rem;
+    }
+
+    #container_main{
+        margin-top: 10%;
+        margin-bottom: 10%;
+    }
+    #id_relatar_problema{
+        width: 80vw;
+        height: 7vh;
+        font-size: 0.8rem;
+    }
+
+    .botao_enviar{
+        width: 30vw;
+    }
+}
