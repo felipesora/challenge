@@ -1,0 +1,55 @@
+#container_main{
+    margin-top: 3%;
+}
+
+.header_diagnostico{
+    margin-bottom: 3%;
+}
+
+.titulo_main, .subtitulo {
+    margin-bottom: 1%;
+}
+
+.subtitulo{
+    margin-top: 2%;
+}
+
+.descritivo{
+    text-align: justify;
+    margin-bottom: 1%;
+}
+
+#id_relatar_problema{
+    width: 85vw;
+    height: 15vh;
+    padding: 20px; 
+    border: 2px solid black; 
+    border-radius: 5px; 
+    font-size: 1.1rem; 
+    margin-bottom: 10px; 
+}
+
+.botao_enviar{
+    margin: 2% 0 2% 0;
+    background-color: var(--cor-principal);
+    padding: 20px;
+    width: 10vw;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.3rem;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.185);
+    transition: transform 0.3s ease;
+}
+
+.botao_enviar:hover{
+    transform: scale(1.1);
+}
+
+#resposta_botao{
+    margin: 1% 0 2% 0;
+    padding-bottom: 2%;
+    text-align: justify;
+}
