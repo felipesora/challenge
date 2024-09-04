@@ -1,0 +1,10 @@
+header{
+    background-color: var(--cor-principal);
+}
+
+.titulo_cabecalho{
+    padding-top: 1%;
+    font-size: 3rem;
+    color: white;
+    text-align: center;
+}
