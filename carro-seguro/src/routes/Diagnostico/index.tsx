@@ -3,6 +3,17 @@ import './diagnostico.css'
 
 export default function Diagnostico(){
     
+    const input = useRef<HTMLInputElement | null>(null);
+    const [respostaBtn, setRespostaBtn] = useState<string>('');
+
+    const btnDiagnosticoClick = (e: React.MouseEvent<HTMLButtonElement>) => {
+        e.preventDefault();
+        if (input) {
+            setRespostaBtn('Seu problema foi relatado com sucesso. Nossa equipe entrará em contato com você em breve para fornecer suporte e orientações. Obrigado por escolher a Porto Seguro.');
+        }
+        if (input.current) input.current.value = '';
+    }
+
     return(
         <main>
         <div id="container_main">
