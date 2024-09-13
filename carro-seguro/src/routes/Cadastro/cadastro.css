@@ -1,0 +1,253 @@
+.container_cadastro{
+    background-color: var(--cor-quartenaria);
+    max-width: 70vw;
+    margin: auto;
+    margin-top: 5%;
+    border-radius: 15px;
+    box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.185);
+    margin-bottom: 2%;
+}
+
+.titulo_form_cadastro{
+    color: var(--cor-principal);
+    text-align: center;
+    padding: 10px;
+    font-size: 3em;
+}
+
+.div_texto_cadastro{
+    margin: 2% 5% 0 5%;
+    color: var(--cor-principal);
+    font-size: 1.2em;
+    font-weight: normal;
+    padding-bottom: 5%;
+}
+
+.link_form_cadastro{
+    position: relative;
+    text-decoration: none;
+    color: #688E99;
+    transition: width 0.3s ease;
+}
+
+.link_form_cadastro::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px; 
+    display: block;
+    margin-top: 1px; 
+    right: 0;
+    background: #688E99; 
+    transition: width 0.3s ease; 
+}
+
+.link_form_cadastro:hover::after {
+    width: 100%;
+    left: 0;
+    background: #688E99;
+}
+
+form{
+    margin-top: 3%;
+}
+
+.texto_form_cadastro{
+    display: flex;
+    font-size: 1.8em;
+    margin-top: 2%;
+}
+
+input{
+    width: 35vw;
+    height: 5vh;
+    font-size: 1.3em;
+    padding-left: 1%;
+    margin-top: 1%;
+}
+
+.campos_obrigatorios{
+    color: black;
+    font-size: 1rem;
+}
+
+button{
+    background-color: var(--cor-principal);
+    border: none;
+    font-size: 1.7em;
+    color: white;
+    margin-top: 3%;
+    padding: 2%;
+    width: 15vw;
+    border-radius: 20px;
+    box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.185);
+    transition: transform 0.3s ease;
+}
+
+
+button:hover{
+    transform: scale(1.1);
+}
+
+@media (max-width: 1510px){
+    button{
+        width: 16vw;
+    }
+
+} 
+
+@media (max-width: 1380px){
+    button{
+        width: 17vw;
+    }
+
+}
+
+@media (max-width: 1300px){
+    button{
+        font-size: 1.5em;
+        padding: 3%;
+    }
+
+    input{
+        width: 40vw;
+    }
+}
+
+@media (max-width: 1215px){
+    button{
+        font-size: 1.4em;
+        padding: 3%;
+    }
+
+    input{
+        width: 45vw;
+    }
+}
+
+@media (max-width: 1120px){
+    button{
+        font-size: 1.4em;
+        padding: 2%;
+    }
+
+    input{
+        width: 45vw;
+    }
+}
+
+@media (max-width: 1050px){
+    button{
+        font-size: 1.4em;
+        padding: 2%;
+        width: 20vw;
+
+    }
+
+    input{
+        width: 45vw;
+    }
+}
+
+@media (max-width: 910px){
+    .container_cadastro{
+        max-width: 90vw;
+    }
+    button{
+        font-size: 1.2em;
+        padding: 3%;
+        width: 20vw;
+
+    }
+
+    input{
+        width: 50vw;
+    }
+}
+
+@media (max-width: 780px){
+    button{
+        font-size: 1.2em;
+        padding: 3%;
+        width: 25vw;
+
+    }
+
+    input{
+        width: 50vw;
+    }
+}
+
+@media (max-width: 670px){
+    button{
+        font-size: 1.2em;
+        padding: 4%;
+        width: 25vw;
+
+    }
+
+    input{
+        width: 50vw;
+    }
+
+    .texto_form_cadastro{
+        display: flex;
+        font-size: 1.5em;
+        margin-top: 2%;
+    }
+}
+
+@media (max-width: 630px){
+    button{
+        font-size: 1.2em;
+        padding: 4%;
+        width: 32vw;
+
+    }
+
+    input{
+        width: 50vw;
+    }
+
+    .texto_form_cadastro{
+        display: flex;
+        font-size: 1.3em;
+        margin-top: 2%;
+    }
+
+    .div_texto_cadastro{
+        font-size: 1.1em;
+    }
+
+    input{
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 500px){
+
+    
+    button{
+        font-size: 1.2em;
+        padding: 4%;
+        width: 32vw;
+
+    }
+
+    input{
+        width: 55vw;
+    }
+}
+
+@media (max-width: 390px){
+    button{
+        font-size: 1em;
+        padding: 5%;
+        width: 35vw;
+
+    }
+
+    input{
+        width: 60vw;
+    }
+}
