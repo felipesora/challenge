@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
+import "./login.css"
 
 export default function Login() {
   const [email, setEmail] = useState("");
@@ -22,28 +23,32 @@ export default function Login() {
   }
 
   return (
-    <div>
-      <h1>Entre na Conta</h1>
-      <p>
-      Entre na sua conta para ter uma experiência melhor ao usar nosso site! Ainda não possui um conta? <a href="/cadastro">Cadastre-se aqui</a>
-      </p>
-      <form onSubmit={handleLogin}>
-        <label htmlFor="">Email:</label>
-        <input
-          type="email"
-          value={email}
-          onChange={(e) => setEmail(e.target.value)}
-          required
-        />
-        <label htmlFor="">Senha:</label>
-        <input
-          type="password"
-          value={senha}
-          onChange={(e) => setSenha(e.target.value)}
-          required
-        />
-        <button type="submit">Entrar</button>
-      </form>
+    <div className="container_login">
+      <h1 className="titulo_form">Entre na Conta</h1>
+      <div className="div_texto_login">
+        <p>
+        Entre na sua conta para ter uma experiência melhor ao usar nosso site! Ainda não possui um conta? <a href="/cadastro" className="link_form">Cadastre-se aqui</a>
+        </p>
+        <form onSubmit={handleLogin}>
+          <label htmlFor="" className="texto_form">Email:</label>
+          <input
+            type="email"
+            value={email}
+            onChange={(e) => setEmail(e.target.value)}
+            required
+          />
+          <label htmlFor="" className="texto_form">Senha:</label>
+          <input
+            type="password"
+            value={senha}
+            onChange={(e) => setSenha(e.target.value)}
+            required
+          />
+          <div>
+            <button type="submit">Entrar</button>
+          </div>
+        </form>
+      </div>
     </div>
   );
 }
