@@ -8,3 +8,22 @@ header{
     color: white;
     text-align: center;
 }
+
+.botao_icones_cabecalho {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.botao_icones_cabecalho:hover {
+    transform: scale(1.2); 
+}
+
+.botao_icones_cabecalho:hover{
+
+}
+
+.icones_cabecalho{
+    width: 4vw;
+}

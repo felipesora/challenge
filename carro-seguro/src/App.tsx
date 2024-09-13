@@ -1,14 +1,17 @@
+import { Outlet, useLocation } from "react-router-dom";
+import './App.css';
 import Cabecalho from "./componentes/Cabecalho/Cabecalho";
 import Rodape from "./componentes/Rodape/Rodape";
-import './App.css'
-import { Outlet } from "react-router-dom";
 
-export default function App(){
-  return(
+export default function App() {
+  const location = useLocation();
+  const showHeaderFooter = location.pathname !== '/' && location.pathname !== '/cadastro';
+
+  return (
     <>
-    <Cabecalho/>
-    <Outlet/>
-    <Rodape/>
+      {showHeaderFooter && <Cabecalho />}
+      <Outlet />
+      {showHeaderFooter && <Rodape />}
     </>
-  )
+  );
 }
