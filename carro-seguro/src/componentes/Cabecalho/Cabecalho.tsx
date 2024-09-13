@@ -1,5 +1,6 @@
 import perfil from '../../assets/images/icone-perfil.png';
 import logout from '../../assets/images/icone-sair.png';
+import linha from '../../assets/images/icone-linha.png';
 
 import { useLocation } from 'react-router-dom';
 import { useNavigate } from "react-router-dom";
@@ -19,6 +20,8 @@ export default function Cabecalho() {
                 return 'Contato';
             case '/app/integrantes':
                 return 'Integrantes';
+            case '/app/conta':
+                return 'Conta'
             default:
                 return 'Bem-vindo à CarroSeguro';
         }
@@ -37,9 +40,14 @@ export default function Cabecalho() {
 
     return (
         <header>
-            <h1 className="titulo_cabecalho">{getTitulo()}</h1>
-            <button onClick={hanldeConta} className='botao_icones_cabecalho'><img src={perfil} alt="icone de perfil" className='icones_cabecalho'/></button>
-            <button onClick={handleLogout} className='botao_icones_cabecalho'><img src={logout} alt="icone de logout" className='icones_cabecalho'/></button>
+            <div className='div_cabecalho'>
+                <h1 className="titulo_cabecalho">{getTitulo()}</h1>
+                <div className='div_botoes_cabecalho'>
+                    <button onClick={hanldeConta} className='botao_icones_cabecalho'><img src={perfil} alt="icone de perfil" className='icones_cabecalho'/></button>
+                    <img src={linha} alt="linha" className='icones_cabecalho'/>
+                    <button onClick={handleLogout} className='botao_icones_cabecalho'><img src={logout} alt="icone de logout" className='icones_cabecalho'/></button>
+                </div>
+            </div>
             <Menu/>
         </header>
     );

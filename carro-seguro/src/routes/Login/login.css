@@ -65,7 +65,7 @@ input{
     margin-top: 1%;
 }
 
-button{
+.button{
     background-color: var(--cor-principal);
     border: none;
     font-size: 1.7em;
@@ -78,19 +78,19 @@ button{
     transition: transform 0.3s ease;
 }
 
-button:hover{
+.button:hover{
     transform: scale(1.1);
 }
 
 @media (max-width: 1300px){
-    button{
+    .button{
         width: 12vw;
     }
 
 } 
 
 @media (max-width: 1215px){
-    button{
+    .button{
         width: 15vw;
         padding: 2%;
     }
@@ -101,7 +101,7 @@ button:hover{
 } 
 
 @media (max-width: 1025px){
-    button{
+    .button{
         margin-top: 5%;
         width: 15vw;
         padding: 2%;
@@ -113,7 +113,7 @@ button:hover{
 } 
 
 @media (max-width: 870px){
-    button{
+    .button{
         width: 20vw;
     }
 }
@@ -129,7 +129,7 @@ button:hover{
         font-size: 1.1em;
     }
 
-    button{
+    .button{
         width: 25vw;
         padding: 4%;
         margin-top: 10%;
@@ -162,7 +162,7 @@ button:hover{
         font-size: 1.1em;
     }
 
-    button{
+    .button{
         width: 25vw;
         padding: 4%;
     }
@@ -195,7 +195,7 @@ button:hover{
         font-size: 1.1em;
     }
 
-    button{
+    .button{
         width: 40vw;
         padding: 5%;
     }

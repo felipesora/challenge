@@ -1,12 +1,20 @@
-header{
+header {
     background-color: var(--cor-principal);
+    padding: 1rem 2% 0.1% 2%; 
 }
 
-.titulo_cabecalho{
-    padding-top: 1%;
+.div_cabecalho {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    width: 100%;
+}
+
+.titulo_cabecalho {
     font-size: 3rem;
     color: white;
-    text-align: center;
+    text-align: left; 
+    margin: 0; 
 }
 
 .botao_icones_cabecalho {
@@ -20,10 +28,70 @@ header{
     transform: scale(1.2); 
 }
 
-.botao_icones_cabecalho:hover{
-
+.icones_cabecalho {
+    width: 3vw;
 }
 
-.icones_cabecalho{
-    width: 4vw;
+.div_botoes_cabecalho {
+    display: flex;
+    align-items: center;
+    gap: 10px; 
 }
+
+@media (max-width: 1190px){
+    .icones_cabecalho {
+        width: 4vw;
+    }
+}
+
+@media (max-width: 1000px){
+    .icones_cabecalho {
+        width: 4.5vw;
+    }
+
+    .titulo_cabecalho {
+        font-size: 2.5rem;
+    }
+}
+
+@media (max-width: 800px){
+    .icones_cabecalho {
+        width: 4.5vw;
+    }
+
+    .titulo_cabecalho {
+        font-size: 2.1rem;
+    }
+}
+
+@media (max-width: 640px){
+    .icones_cabecalho {
+        width: 5vw;
+    }
+
+    .titulo_cabecalho {
+        font-size: 1.8rem;
+    }
+}
+
+@media (max-width: 530px){
+    .icones_cabecalho {
+        width: 5vw;
+    }
+
+    .titulo_cabecalho {
+        font-size: 1.6rem;
+    }
+}
+
+@media (max-width: 390px){
+    .icones_cabecalho {
+        width: 6vw;
+    }
+
+    .titulo_cabecalho {
+        font-size: 1.1rem;
+    }
+}
+
+

@@ -63,7 +63,7 @@ export default function Cadastro() {
             required
           />
           <p className="campos_obrigatorios">*Todos os campos são obrigatórios.</p>
-          <button type="submit">Cadastrar-se</button>
+          <button type="submit" className="button">Cadastrar-se</button>
         </form>
       </div>
     </div>
