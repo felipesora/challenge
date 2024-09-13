@@ -53,6 +53,6 @@ O projeto consiste em quatro páginas principais:
 
 ## Integrantes
 
-- Pedro Paulo | RM: 556370 | 1TDSPH
-- Vitor Tadeu | RM: 559105| 1TDSPH
-- Felipe Ulson Sora | RM: 555462| 1TDSPH
+- Pedro Paulo       | RM: 556370  | 1TDSPH
+- Vitor Tadeu       | RM: 559105  | 1TDSPH
+- Felipe Ulson Sora | RM: 555462  | 1TDSPH
