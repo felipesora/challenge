@@ -51,6 +51,10 @@ O projeto consiste em quatro páginas principais:
 
 - https://www.figma.com/design/dSlchMNlevMvUJ0w2wKeCD/Untitled?node-id=0-1&t=y3SuPG1Vu8edaTI2-1
 
+## Link do vídeo no Youtube
+
+- https://www.youtube.com/watch?v=aZStdvXt51w
+
 ## Integrantes
 
 - Pedro Paulo       | RM: 556370  | 1TDSPH
